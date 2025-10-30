@@ -1,15 +1,17 @@
 name: dart_sandbox_02102025
-description: A starting point for Dart libraries or applications.
+description: This is a sandbox.
 version: 0.0.1
 publish_to: 'none'
 
 environment:
   sdk: ^3.9.0
 
-# Add regular dependencies here.
 dependencies:
   # path: ^1.9.0
 
 dev_dependencies:
   lints: ^6.0.0
-  test: ^1.26.3
+  test:
+    git:
+      url: https://github.com/dart-lang/test.git
+      ref: a8f97ed6edc9550959f097f5187a0307793d8d3d
