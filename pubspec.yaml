@@ -4,15 +4,11 @@ version: 0.0.1
 publish_to: 'none'
 
 environment:
-  sdk: ^3.9.0
+  sdk: ^3.10.8
 
 dependencies:
-  # path: ^1.9.0
+  # path: ^1.9.1
 
 dev_dependencies:
   lints: ^6.0.0
-  test:
-    git:
-      url: https://github.com/dart-lang/test.git
-      path: pkgs/test
-      ref: a8f97ed6edc9550959f097f5187a0307793d8d3d
+  test: ^1.29.0
